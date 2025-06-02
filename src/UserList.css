@@ -1,0 +1,81 @@
+/* src/UserList.css */
+.user-list-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.user-list-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.user-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list-container li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+/* src/UserList.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.user-list-container {
+  background: #ffffff;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.user-list-container:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.user-list-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.user-list-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-list-container li {
+  background-color: #f9fafc;
+  border: 1px solid #e0e6ed;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  transition: background 0.2s;
+}
+
+.user-list-container li:hover {
+  background-color: #e8f0fe;
+}
+
+.user-list-container li strong {
+  color: #34495e;
+  font-size: 1.1rem;
+}
+
+.user-list-container li span {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+}
